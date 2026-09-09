@@ -1,0 +1,6 @@
+numpy>=2.4
+scipy>=1.18
+pandas>=3.0
+torch>=2.11
+onnxruntime>=1.29
+tflite-runtime>=2.20

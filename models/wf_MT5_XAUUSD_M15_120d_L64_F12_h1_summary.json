@@ -1,0 +1,30 @@
+{
+  "dataset": "data/processed/MT5_XAUUSD_M15_120d_L64_F12_h1.npz",
+  "folds": 2,
+  "epochs": 3,
+  "patience": 2,
+  "hidden": 48,
+  "layers": 1,
+  "lr": 0.0015,
+  "kind": "lstm",
+  "mean_acc": 0.4749518304431599,
+  "std_acc": 0.039017341040462394,
+  "results": [
+    {
+      "best_ep": 1,
+      "best_val_acc": 0.5139691714836223,
+      "best_val_ce": 0.9061139225959778,
+      "last_ep": 3,
+      "fold": 0,
+      "time": 24.386687335005263
+    },
+    {
+      "best_ep": 2,
+      "best_val_acc": 0.4359344894026975,
+      "best_val_ce": 0.932379424571991,
+      "last_ep": 3,
+      "fold": 1,
+      "time": 59.56807581099565
+    }
+  ]
+}

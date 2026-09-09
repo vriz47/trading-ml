@@ -1,0 +1,19 @@
+model:
+  kind: lstm
+  input_len: 64
+  hidden: 128
+  layers: 2
+  dropout: 0.2
+  lr: 0.001
+  epochs: 200
+  batch_size: 64
+
+data:
+  symbol: XAUUSDc
+  timeframe_min: 5
+  features: [open, high, low, close, volume]
+
+inference:
+  provider: NnapiExecutionProvider
+  fallback: CPUExecutionProvider
+  max_bars_predict: 32
